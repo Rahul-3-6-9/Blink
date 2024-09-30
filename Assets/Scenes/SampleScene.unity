@@ -712,7 +712,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239937105}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a0ea4d41cb9ff245877bed56614fd66, type: 3}
   m_Name: 
@@ -2562,6 +2562,7 @@ GameObject:
   - component: {fileID: 1264191661}
   - component: {fileID: 1264191660}
   - component: {fileID: 1264191659}
+  - component: {fileID: 1264191663}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Enemy
@@ -2657,6 +2658,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264191663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264191658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2810709a3b8624c88ad0970c85b1a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1348104252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2956,6 +2969,18 @@ Transform:
   - {fileID: 129726095}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718155375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6770146545278079873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2810709a3b8624c88ad0970c85b1a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1841625588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +3108,8 @@ GameObject:
   - component: {fileID: 1937990867}
   - component: {fileID: 1937990866}
   - component: {fileID: 1937990869}
+  - component: {fileID: 1937990871}
+  - component: {fileID: 1937990870}
   m_Layer: 7
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -3339,6 +3366,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 33563711}
   sphereCollider: {fileID: 346706668}
+--- !u!114 &1937990870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937990859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2810709a3b8624c88ad0970c85b1a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!33 &1937990871
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937990859}
+  m_Mesh: {fileID: 0}
 --- !u!1 &2017400467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364,
@@ -4179,6 +4226,7 @@ GameObject:
   - component: {fileID: 6770146545278177185}
   - component: {fileID: 6770146545276850049}
   - component: {fileID: 6770146545275882817}
+  - component: {fileID: 1718155375}
   - component: {fileID: 4552356143892769776}
   - component: {fileID: 4283532952804054861}
   - component: {fileID: 6770146545278177186}
